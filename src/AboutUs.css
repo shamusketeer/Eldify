@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* General styles */
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Responsive grid layout */
+  @media (min-width: 768px) {
+    .about-us {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  }
+  
+  /* About Us section styles */
+  .about-us h2 {
+    font-size: 24px;
+    width: 20%;
+    margin-bottom: 8.4rem;
+    position: relative;
+    display: inline-block;
+    color: #B06161;
+    border-bottom: 2px solid #B06161;
+    cursor: pointer;
+  }
+  
+  .about-us p {
+    font-size: 20px;
+    color: rgb(180, 98, 180);
+  }
+  
+  /* Keep content visible after hover ends */
+  .about-us:hover p, .about-us:hover h2::after {
+    transition-delay: 0.5s; /* Delay transition to keep content visible after hover ends */
+  }
+  

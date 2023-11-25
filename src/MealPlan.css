@@ -1,0 +1,31 @@
+.meal-plan{
+ display: inline-block;
+ width: 49%; 
+}
+.meal-plan-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: wheat;
+}
+.meal-plan h2{
+  color: #B06161;
+  border-bottom: 2px solid #B06161;
+  width: 18%;
+}
+.meal-plan-card h3{
+  font-weight: bold;
+  color: #B06161;
+}
+
+.meal-plan-card p{
+  color:  rgb(180, 98, 180);
+}
+.meal-plan-card:hover {
+  transform: translateY(-5px);
+}

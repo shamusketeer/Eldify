@@ -1,0 +1,90 @@
+/* MainContent.css */
+
+/* General styles */
+.main-content {
+  padding: 20px;
+}
+
+.bmi-calculator {
+  margin-top: 20px;
+  padding: 20px;
+}
+.bmi-calculator h2{
+  color: #B06161;
+  border-bottom: 2px solid #B06161;
+  width: 60%;
+}
+
+.input-fields label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(180, 98, 180);
+}
+
+.input-fields input[type="number"],
+.input-fields button {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.input-fields input[type="number"] {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.input-fields button {
+  background-color: #B06161;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-fields button:hover {
+  background-color: #b3533e;
+}
+
+.bmi-result {
+  margin-top: 20px;
+}
+
+.bmi-result p {
+  font-weight: bold;
+  color: rgb(180, 98, 180);
+}
+
+/* WorkoutPlan.css */
+
+/* Styles for Workout Plan */
+.workout-plan{
+  display: inline-block;
+  width: 49%;
+}
+.workout-plan-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: wheat;
+}
+
+.workout-plan h2{
+  color: #B06161;
+  border-bottom: 2px solid #B06161;
+  width: 25%;
+}
+
+.workout-plan-card li{
+  color:  rgb(180, 98, 180);
+}
+
+.workout-plan-card:hover {
+  transform: translateY(-5px);
+}
